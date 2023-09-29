@@ -10,6 +10,8 @@ function App() {
   const [userName, setUserName] = useState("");
   const [score, setScore] = useState(0);
 
+  const [scoreq, setScoreQ] = useState(0);
+
   return (
     <div className="App">
       <h1>Quiz App</h1>
